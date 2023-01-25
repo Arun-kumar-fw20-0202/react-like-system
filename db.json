@@ -1,6 +1,27 @@
-{ 
-    "user": [],
-    "post": [],
-    "comment": [],
-    "likes": []
+{
+  "user": [
+    {
+      "name": "Arun",
+      "last_name": "Kumar",
+      "mobile": "8586864566",
+      "gmail": "arun.kumar97107@gmail.com",
+      "password": "123456789",
+      "gender": "male",
+      "avatar": "https://i.ibb.co/NSrgD6h/Screenshot-20221218-054244.png",
+      "id": 1
+    },
+    {
+      "name": "Arun",
+      "last_name": "Kumar",
+      "mobile": "8586864566",
+      "gmail": "arun.kumar@gmail.com",
+      "password": "123456789",
+      "gender": "male",
+      "avatar": "https://i.ibb.co/vYPkQD7/Whats-App-Image-2022-11-07-at-2-44-42-PM.jpg",
+      "id": 2
+    }
+  ],
+  "post": [],
+  "comment": [],
+  "likes": []
 }

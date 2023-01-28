@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import Allroutes from "./components/Allroutes"
-import Home from "./pages/home"
+import 'font-awesome/css/font-awesome.min.css';
+
 function App() {
   const [count, setCount] = useState(0)
 

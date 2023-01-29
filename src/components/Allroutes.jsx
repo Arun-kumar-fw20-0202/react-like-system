@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from '../pages/home'
 import Login from '../pages/Login'
 import UserPost from '../pages/posts'
+import { Profile } from '../pages/profile'
 import Register from '../pages/register'
 import Navbar from './navbar'
 
@@ -14,6 +15,7 @@ function Allroutes() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/posts" element={<UserPost />} />
       </Routes>
     </>

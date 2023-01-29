@@ -92,29 +92,24 @@
   "comment": [],
   "likes": [
     {
-      "postId": 2,
+      "postId": 9,
       "userId": 1,
-      "id": 1
+      "id": 6
     },
     {
       "postId": 3,
       "userId": 1,
-      "id": 2
+      "id": 7
+    },
+    {
+      "postId": 4,
+      "userId": 1,
+      "id": 8
     },
     {
       "postId": 2,
-      "userId": 2,
-      "id": 3
-    },
-    {
-      "postId": 11,
-      "userId": 2,
-      "id": 4
-    },
-    {
-      "postId": 10,
-      "userId": 2,
-      "id": 5
+      "userId": 1,
+      "id": 9
     }
   ]
 }

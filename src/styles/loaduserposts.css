@@ -1,0 +1,16 @@
+.userPost{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+    gap: 10px;
+    margin: auto;
+} 
+.userPost > .box{
+    /* border: 1px solid black; */
+}
+.userPost > .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

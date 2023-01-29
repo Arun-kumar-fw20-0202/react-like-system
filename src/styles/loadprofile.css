@@ -1,0 +1,19 @@
+.top{
+    width: 70%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+}
+.top > img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+.top > .data{
+    width: 70%;
+    /* border: 1px solid black; */
+}

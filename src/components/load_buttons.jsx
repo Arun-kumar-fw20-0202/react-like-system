@@ -25,7 +25,7 @@ export const Load_post_btns = ({id}) => {
 
     useEffect(() => {
         getPosts()
-    }, [])
+    }, [likeCount])
 
 
 
@@ -42,15 +42,39 @@ export const Load_post_btns = ({id}) => {
                 'Content-Type': 'application/json',
             }
         })
-        let data = await res.json();
         setCountlike([...likeCount,likes])
     }
+
+    const removeLike = async (id,userId) => {
+        likeCount.map((ele) => {
+            if(ele.postId == id && ele.userId == userId){
+                deleteLike(id);
+                setCountlike([...likeCount,likes])
+            }
+        })
+    }
+
+    const deleteLike = async (id) => {
+        try{
+            const res = await fetch(`http://localhost:8080/likes/${9}`,{
+                method: "DELETE",
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            let data = await res.json();
+            // console.log(data)
+        }catch(e){
+            console.log(e)
+        }
+    }
+
     return (
         <>
             <div style={{display: "flex", gap: "10px"}} className="btns">
                 {isAuth ? 
                     check ? 
-                        <span style={{cursor: "pointer"}}>
+                        <span onClick={()=> removeLike(id,user.id)} style={{cursor: "pointer"}}>
                             <i className="fa fa-heart" style={{color: "red"}}></i>
                             {" "}
                             {likes}

@@ -11,17 +11,110 @@
       "id": 1
     },
     {
-      "name": "Arun",
-      "last_name": "Kumar",
-      "mobile": "8586864566",
-      "gmail": "arun.kumar@gmail.com",
-      "password": "123456789",
+      "name": "Katill",
+      "last_name": "Boyy",
+      "mobile": "7838557666",
+      "gmail": "katillboyy@gmail.com",
+      "password": "123",
       "gender": "male",
       "avatar": "https://i.ibb.co/vYPkQD7/Whats-App-Image-2022-11-07-at-2-44-42-PM.jpg",
       "id": 2
     }
   ],
-  "post": [],
+  "posts": [
+    {
+      "caption": "This is just a test",
+      "userId": 1,
+      "id": 2,
+      "image_url": "https://i.ibb.co/YbsRbBG/Whats-App-Image-2022-08-23-at-12-21-40-PM.jpg"
+    },
+    {
+      "caption": "Dicipline is the Bridge🌉 between goals 🏅and accomplishment.😎",
+      "userId": 2,
+      "id": 3,
+      "image_url": "https://i.ibb.co/vQyJMFZ/IMG20220531191802.jpg"
+    },
+    {
+      "caption": "THE JOURNEY Won't Be Easy But It's Definitely Worth It😉",
+      "userId": 2,
+      "id": 4,
+      "image_url": "https://i.ibb.co/FwcgSMB/IMG-20220605-WA0029.jpg"
+    },
+    {
+      "caption": "When 👉your legs⛹️ get tired, Run✈️ with your heart❣️",
+      "userId": 1,
+      "id": 5,
+      "image_url": "https://i.ibb.co/7SCrMNk/IMG20211011172808.jpg"
+    },
+    {
+      "caption": "Tention ni lene ka ",
+      "userId": 1,
+      "id": 6,
+      "image_url": "https://i.ibb.co/ZGS4pj1/IMG20220520204403.jpg"
+    },
+    {
+      "caption": "Just Take a Chill 🤘 Pill💊",
+      "userId": 1,
+      "id": 7,
+      "image_url": "https://i.ibb.co/Vgt6BKm/collage.jpg"
+    },
+    {
+      "caption": "Being unique is batter than being perfect ",
+      "userId": 2,
+      "id": 8,
+      "image_url": "https://i.ibb.co/Rc31b8Z/IMG-20220206-WA0001.jpg"
+    },
+    {
+      "caption": "Live as if you were to die tomorrow. ...",
+      "userId": 1,
+      "id": 9,
+      "image_url": "https://i.ibb.co/WWyHgwZ/IMG-20220129-WA0004.jpg"
+    },
+    {
+      "caption": "I'll be always be yours",
+      "userId": 1,
+      "id": 10,
+      "image_url": "https://i.ibb.co/Qrdc0ZZ/IMG-20220206-WA0007.jpg"
+    },
+    {
+      "caption": "Do not put off till tomorrow what do you can do today",
+      "userId": 2,
+      "id": 11,
+      "image_url": "https://i.ibb.co/r7rj2p9/IMG-20220605-WA0052.jpg"
+    },
+    {
+      "caption": "I'll be always be yours",
+      "userId": 1,
+      "id": 12,
+      "image_url": "https://i.ibb.co/Gkw7spD/download.jpg"
+    }
+  ],
   "comment": [],
-  "likes": []
+  "likes": [
+    {
+      "postId": 2,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "postId": 3,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "postId": 2,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "postId": 11,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "postId": 10,
+      "userId": 2,
+      "id": 5
+    }
+  ]
 }

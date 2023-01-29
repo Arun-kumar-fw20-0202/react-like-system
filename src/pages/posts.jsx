@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Load_post_img from '../components/load_post_img'
-
-
+import Load_post_img from '../components/load_post_img';
+import $ from 'jquery';
 
 function UserPost() {
 
@@ -10,7 +9,6 @@ function UserPost() {
     const getPosts = async () => {
         const res = await fetch(`http://localhost:8080/posts`)
         const json = await res.json()
-        console.log(json)
         setPosts(json)
     }
 

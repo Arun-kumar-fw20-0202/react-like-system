@@ -1,7 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react'
-import "../styles/login.css"
-import { Link } from 'react-router-dom'
-import { AuthContext } from '../context/AppContext'
+import "../styles/login.css";
+import { Link } from 'react-router-dom';
+import { AuthContext } from '../context/AppContext';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const logniData = {
 	gmail :"arun.kumar97107@gmail.com",
@@ -21,6 +23,7 @@ export default function Login() {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		let temp = 0;
+		console.log(temp)
         let final = {}
         for(let i = 0; i <= loginData.length-1; i++){
             if(loginData[i].gmail === gmail && loginData[i].password === password){
@@ -30,13 +33,19 @@ export default function Login() {
             }
         }
         if(temp == 1){
-            alert("Login Successful !");
+            toast.success("Login successful!",{
+				position: "bottom-right",
+				theme: "dark",
+			});
             setTimeout(function(){
                 UserLogin(final)
             },700)
         }else{
-            alert("Something went wrong please check your email or password !");
-        }
+			toast.error("Username or password is wrong !",{
+				position: "bottom-right",
+				theme: "dark"
+			});
+		}
 	}
 
 
@@ -55,6 +64,9 @@ export default function Login() {
 
   return (
     <div className="Lmain">
+		<ToastContainer 
+		// limit= {1}
+		 />
 		<div className="box">
 			<div className="imgBx">
 				<img src="../../public/loginimg5.jpg" />

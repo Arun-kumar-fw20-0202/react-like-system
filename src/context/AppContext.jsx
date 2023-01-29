@@ -27,7 +27,7 @@ export default function AuthContextProvider({ children }){
     }
 
     const Logout = () => {
-        setIsAuth(false)
+        setIsauth(false)
         setuser({})
         localStorage.removeItem("setAuth")        
         window.location = "/login"

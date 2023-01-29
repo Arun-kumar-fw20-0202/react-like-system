@@ -47,6 +47,15 @@ body{
     padding: 0 30px;
     background: white;
 }
+.Lmain .box2  .message{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #000;
+    padding: 8px 20px;
+    text-align: center;
+    margin: 20px;
+}
 .Lmain .box2 .inputBx{
     position: relative;
     top: 35%;
